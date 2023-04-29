@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    height: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(163, 201, 206);
+    justify-content: space-evenly;
+    
+}
+.wrap-item{
+    width: 180px;
+    height: 200px;
+    gap: 120px;
+    background-color: rgb(53, 175, 159);
+    transition: .2s;
+    align-items: start;
+    border-radius: 7px;
+    text-align: center;
+    
+}
+.wrap-item:hover{
+    width: 200px;
+}

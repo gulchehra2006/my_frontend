@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.wrap{
+    height: 500px;
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    gap: 90px;
+    /* align-items: center;  */
+
+}
+.wrap-item{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(131, 255, 15);
+    text-align: center;
+}

@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.mom{
+    height: 100vh;
+    width: 100%;
+    background-image: url(download.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.mom img{
+    position: relative;
+    width: 90px;
+    left: 50px;
+    border-radius: 90px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+nav ul li a:hover{
+    color: blue;
+    transition: .4s;
+}
+.dad{
+    background-color: rgba(61, 61, 255, 0.664);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    
+}
+.dad:hover{
+    transform: scale(1.2);
+    transition: .4s;
+    color: gray;
+}
+.newslatter{
+    margin-top: 100px;
+    margin-left: 80px;
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.newslatter form input:first-child{
+     
+    margin-right: 100px;
+    display: inline-block;
+    padding: 14px 130px 14px 15px;
+    outline: none;
+    border-radius: 50px;
+    
+}
+.newslatter form input:last-child{
+    text-decoration: dashed;
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 40px;
+    background-color: white;
+    color:white;
+    top: 6px;
+    left: 240px;
+}
+.box h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}

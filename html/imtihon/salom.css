@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.dad h1{
+    width: 30%;
+    color: rgb(10, 115, 141);
+    margin-left: 300px;
+}
+.dad{
+    display: flex;
+    box-shadow: 0 0 5px black;
+    padding: 10px;
+}
+
+.link{
+    color: lightskyblue;
+    left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.link2{
+    color: mediumturquoise;
+}
+a{
+    color: black;
+    text-decoration: none;
+    margin-left: 40px;
+    position: relative;
+    left: 100px;
+    top: 10px;
+}
+select{
+    border: none;
+    position: relative;
+    left: 120xp;
+}
+button{
+    color: white;
+    background-color: blue;
+    border-radius: 4px;
+    width: 90px;
+    height: 30px;
+    margin-left: 150px;
+    border: none;
+    transition: 0.5s;
+}
+button:hover{
+    transform: scale(1.2);
+    background-color: rgb(53, 191, 255);
+    color: white;
+}
+.world button{
+    position: absolute;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-left: 600px;
+
+}
+.world h1{
+    position: relative;
+    margin-top: 100px;
+    margin-left: 500px;
+    color: rgb(0, 84, 168);
+}
+.world p{
+     position: relative;
+     margin-left: 500px;
+     font-weight: 100;
+}
+
+.page{
+     margin-left: 300px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+.page h1{
+    width: 500px;
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.page p{
+    font-size: 25px;
+    font-weight: 400;
+}
+.get{
+    color: white;
+    background-color: greenyellow;
+    border-radius: 10px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    transition: 0.5s;
+    margin-right: 150px;
+    margin: 20px;
+}
+.get:hover{
+    transform: scale(1.2);
+    background-color: white;
+    color: red;
+}
+.dad2{
+    display: flex;
+    margin-top: 150px;
+}
+.son{
+    box-shadow: 0 0 10px gray;
+    width: 350px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.fa-solid{
+    font-size: 40px;
+    margin-top: 70px;
+    margin-left: 35px;
+    color: blue;
+}
+.son h2{
+    margin-top: 50px;
+    margin-left: 35px;
+}
+.son p{
+    width: 300px;
+    margin-left: 35px;
+    margin-top: 50px;
+}
+.mom1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    gap: 35px;
+}
+.son:hover{
+    transform: scale(1.2);
+}
+.fa-solid{
+    font-size: 40px;
+    margin-top: 70px;
+    margin-top: 20px;
+}
